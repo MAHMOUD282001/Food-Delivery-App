@@ -1,0 +1,40 @@
+
+.checkout__form{
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.form__group{
+    margin-bottom: 20px;
+}
+
+.checkout__form input{
+    width: 100%;
+    background: transparent;
+    padding: 7px 20px;
+    border: none;
+    border-bottom: 1px solid #212245b6;
+    outline: none;
+}
+
+.checkout__bill {
+    background-color: #fde4e4;
+    padding: 30px;
+}
+
+.checkout__total {
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+}
+
+@media(max-width:767px){
+    
+    .checkout__bill{
+        margin-top: 40px;
+    }
+    
+    .checkout__bill h6{
+        font-size: .9rem;
+    }
+}
